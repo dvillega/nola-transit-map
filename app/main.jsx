@@ -23,6 +23,7 @@ import ferryIcon from '../img/icon_mock_ferry.png'
 import errorIcon from '../img/icon_vehicle_error.png'
 import arrowIcon from '../img/icon_arrow_offset.png'
 
+import basicArrow from '../img/arrow.png'
 
 const VALID_ROUTES = NortaGeoJson
     .features
@@ -61,8 +62,8 @@ const ROUTE_INFO = VALID_ROUTES
     }, {})
 
 const iconVehicle = new L.Icon({
-    iconUrl: require('../img/arrow.png'),
-    iconRetinaUrl: require('../img/arrow.png'),
+    iconUrl: basicArrow,
+    iconRetinaUrl: basicArrow,
     iconAnchor: null,
     shadowUrl: null,
     shadowSize: null,
